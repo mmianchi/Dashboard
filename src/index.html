@@ -4,19 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mahshid</title>
+  <title>Blogen Admin Area</title>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body id="home">
-  
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <div class="container">
+      <a href="index.html" class="navbar-brand" >Blogen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collaps navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item px-2">
+            <a class="nav-link active" href="index.html">Dashboard</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="posts.html">Posts</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="categries.html">Categries</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="users.html">Users</a>
+          </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown mr-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"><i class="fa fa-user mr-2"></i>Welcome</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="profile.html"><i class="fa fa-user-circle mr-2"></i>Profile</a>
+                <a class="dropdown-item" href="Settings.html"><i class="fa fa-gear mr-2"></i>Setting</a>
+              </div>
+            </li>
+          </ul>
+
+        
+      </div>
+
+    </div>
+  </nav>
 
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
-
 </body>
 </html>

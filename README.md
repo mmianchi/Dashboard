@@ -1,1 +1,1 @@
-# Dashboard multi page template 
+# Dashboard with 8 pages template 

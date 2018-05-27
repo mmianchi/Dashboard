@@ -1,1 +1,1 @@
-# Template for Blogen Admin Area
+# Dashboard multi page template 
